@@ -15,7 +15,7 @@ export default async function handler(req, res) {
 
     const requestBody = {
       contents: contents,
-      generationConfig: { maxOutputTokens: 1500, temperature: 0.7, topP: 0.9 }
+      generationConfig: { maxOutputTokens: 800, temperature: 0.7, topP: 0.9 }
     };
 
     if (system) {
