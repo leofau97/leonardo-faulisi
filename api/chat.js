@@ -68,4 +68,4 @@ export default async function handler(req, res) {
 
   // Tutti falliti
   return res.status(200).json({ reply: 'Non ho questa info, contatta Leonardo direttamente: leonardofaulisi97@gmail.com' });
-}
+} 
