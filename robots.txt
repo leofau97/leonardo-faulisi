@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://leonardo-faulisi.vercel.app/sitemap.xml
