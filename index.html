@@ -1320,8 +1320,8 @@ try {
     const size = box.getSize(new THREE.Vector3());
     model.position.set(-box.getCenter(new THREE.Vector3()).x, -box.min.y, -box.getCenter(new THREE.Vector3()).z);
     const dist = size.y / (2 * Math.tan(THREE.MathUtils.degToRad(14)));
-    camera.position.set(0, size.y * 0.8, dist * 1.1);
-    camera.lookAt(0, size.y * 0.8, 0);
+    camera.position.set(0, size.y * 0.6, dist * 1.2);
+    camera.lookAt(0, size.y * 0.6, 0);
     if(gltf.animations && gltf.animations.length > 0) {
       mixer = new THREE.AnimationMixer(model);
       mixer.clipAction(gltf.animations[0]).play();
